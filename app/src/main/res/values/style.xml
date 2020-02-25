@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+       <item name="colorPrimary"></item>
+       <item name="android:windowBackground">@color/backgroundtotal</item>
+
+   </style>
+    <style name="group">
+        <item name="android:background">@color/background</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/whi</item>
+    </style>
+</resources>

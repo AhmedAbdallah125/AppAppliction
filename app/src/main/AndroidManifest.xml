@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.compuworld.learnforkids">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Check your knowledge"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Qj1Activity" />
+        <activity android:name=".Qj2Activity" />
+        <activity android:name=".Qj3Activity" />
+        <activity android:name=".Qj4Activity" />
+        <activity android:name=".Qj5Activity" />
+        <activity android:name=".Qj6Activity" />
+        <activity android:name=".Qj7Activity" />
+        <activity android:name=".Qj8Activity" />
+        <activity android:name=".Qj9Activity" />
+        <activity android:name=".Qj10Activity" />
+        <activity android:name=".Qj11Activity" />
+        <activity android:name=".Qj12Activity" />
+        <activity android:name=".Qj13Activity" />
+        <activity android:name=".Qj14Activity" />
+        <activity android:name=".Qj15Activity" />
+        <activity android:name=".Qj16Activity" />
+        <activity android:name=".Qj17Activity" />
+        <activity android:name=".Qj18Activity" />
+        <activity android:name=".Qj19Activity" />
+        <activity android:name=".Qj20Activity" />
+        <activity android:name=".GroupJActivity" />
+        <activity android:name=".Qi1Activity" />
+        <activity android:name=".Qi2Activity" />
+        <activity android:name=".Qi3Activity" />
+        <activity android:name=".Qi4Activity" />
+        <activity android:name=".Qi5Activity" />
+        <activity android:name=".Qi6Activity" />
+        <activity android:name=".Qi7Activity" />
+        <activity android:name=".Qi8Activity" />
+        <activity android:name=".Qi9Activity" />
+        <activity android:name=".Qi10Activity" />
+        <activity android:name=".Qi11Activity" />
+        <activity android:name=".Qi12Activity" />
+        <activity android:name=".Qi13Activity" />
+        <activity android:name=".Qi14Activity" />
+        <activity android:name=".Qi15Activity" />
+        <activity android:name=".Qi16Activity" />
+        <activity android:name=".Qi17Activity" />
+        <activity android:name=".Qi18Activity" />
+        <activity android:name=".Qi19Activity" />
+        <activity android:name=".Qi20Activity" />
+
+        <activity android:name=".GroupIActivity" />
+        <activity android:name=".Qh1Activity" />
+        <activity android:name=".Qh2Activity" />
+        <activity android:name=".Qh3Activity" />
+        <activity android:name=".Qh4Activity" />
+        <activity android:name=".Qh5Activity" />
+        <activity android:name=".Qh6Activity" />
+        <activity android:name=".Qh7Activity" />
+        <activity android:name=".Qh8Activity" />
+        <activity android:name=".Qh9Activity" />
+        <activity android:name=".Qh10Activity" />
+        <activity android:name=".Qh11Activity" />
+        <activity android:name=".Qh12Activity" />
+        <activity android:name=".Qh13Activity" />
+        <activity android:name=".Qh14Activity" />
+        <activity android:name=".Qh15Activity" />
+        <activity android:name=".Qh16Activity" />
+        <activity android:name=".Qh17Activity" />
+        <activity android:name=".Qh18Activity" />
+        <activity android:name=".Qh19Activity" />
+        <activity android:name=".Qh20Activity" />
+
+        <activity android:name=".GroupHActivity" />
+        <activity android:name=".Qg1Activity" />
+        <activity android:name=".Qg2Activity" />
+        <activity android:name=".Qg3Activity" />
+        <activity android:name=".Qg4Activity" />
+        <activity android:name=".Qg5Activity" />
+        <activity android:name=".Qg6Activity" />
+        <activity android:name=".Qg7Activity" />
+        <activity android:name=".Qg8Activity" />
+        <activity android:name=".Qg9Activity" />
+        <activity android:name=".Qg10Activity" />
+        <activity android:name=".Qg11Activity" />
+        <activity android:name=".Qg12Activity" />
+        <activity android:name=".Qg13Activity" />
+        <activity android:name=".Qg14Activity" />
+        <activity android:name=".Qg15Activity" />
+        <activity android:name=".Qg16Activity" />
+        <activity android:name=".Qg17Activity" />
+        <activity android:name=".Qg18Activity" />
+        <activity android:name=".Qg19Activity" />
+        <activity android:name=".Qg20Activity" />
+        <activity android:name=".GroupGActivity" />
+        <activity android:name=".Qf1Activity" />
+        <activity android:name=".Qf2Activity" />
+        <activity android:name=".Qf3Activity" />
+        <activity android:name=".Qf4Activity" />
+        <activity android:name=".Qf5Activity" />
+        <activity android:name=".Qf6Activity" />
+        <activity android:name=".Qf7Activity" />
+        <activity android:name=".Qf8Activity" />
+        <activity android:name=".Qf9Activity" />
+        <activity android:name=".Qf10Activity" />
+        <activity android:name=".Qf11Activity" />
+        <activity android:name=".Qf12Activity" />
+        <activity android:name=".Qf13Activity" />
+        <activity android:name=".Qf14Activity" />
+        <activity android:name=".Qf15Activity" />
+        <activity android:name=".Qf16Activity" />
+        <activity android:name=".Qf17Activity" />
+        <activity android:name=".Qf18Activity" />
+        <activity android:name=".Qf19Activity" />
+        <activity android:name=".Qf20Activity" />
+        <activity android:name=".GroupFActivity" />
+        <activity android:name=".Qe20Activity" />
+        <activity android:name=".Qe19Activity" />
+        <activity android:name=".Qe18Activity" />
+        <activity android:name=".Qe17Activity" />
+        <activity android:name=".Qe16Activity" />
+        <activity android:name=".Qe15Activity" />
+        <activity android:name=".Qe14Activity" />
+        <activity android:name=".Qe13Activity" />
+        <activity android:name=".Qe12Activity" />
+        <activity android:name=".Qe11Activity" />
+        <activity android:name=".Qe10Activity" />
+        <activity android:name=".Qe9Activity" />
+        <activity android:name=".Qe8Activity" />
+        <activity android:name=".Qe7Activity" />
+        <activity android:name=".Qe6Activity" />
+        <activity android:name=".Qe5Activity" />
+        <activity android:name=".Qe4Activity" />
+        <activity android:name=".Qe3Activity" />
+        <activity android:name=".Qe2Activity" />
+        <activity android:name=".Qe1Activity" />
+        <activity android:name=".GroupEActivity" />
+        <activity android:name=".Qd20Activity" />
+        <activity android:name=".Qd19Activity" />
+        <activity android:name=".Qd18Activity" />
+        <activity android:name=".Qd17Activity" />
+        <activity android:name=".Qd16Activity" />
+        <activity android:name=".Qd15Activity" />
+        <activity android:name=".Qd14Activity" />
+        <activity android:name=".Qd13Activity" />
+        <activity android:name=".Qd12Activity" />
+        <activity android:name=".Qd11Activity" />
+        <activity android:name=".Qd10Activity" />
+        <activity android:name=".Qd9Activity" />
+        <activity android:name=".Qd8Activity" />
+        <activity android:name=".Qd7Activity" />
+        <activity android:name=".Qc20Activity" />
+        <activity android:name=".Qc19Activity" />
+        <activity android:name=".Qc18Activity" />
+        <activity android:name=".Qc17Activity" />
+        <activity android:name=".Qc16Activity" />
+        <activity android:name=".Qc15Activity" />
+        <activity android:name=".Qc14Activity" />
+        <activity android:name=".Qc13Activity" />
+        <activity android:name=".Qc12Activity" />
+        <activity android:name=".Qc11Activity" />
+        <activity android:name=".Qc10Activity" />
+        <activity android:name=".Qc9Activity" />
+        <activity android:name=".Qc8Activity" />
+        <activity android:name=".Qc7Activity" />
+        <activity android:name=".Qb20Activity" />
+        <activity android:name=".Qb19Activity" />
+        <activity android:name=".Qb18Activity" />
+        <activity android:name=".Qb17Activity" />
+        <activity android:name=".Qb16Activity" />
+        <activity android:name=".Qb15Activity" />
+        <activity android:name=".Qb14Activity" />
+        <activity android:name=".Qb13Activity" />
+        <activity android:name=".Qb12Activity" />
+        <activity android:name=".Qb11Activity" />
+        <activity android:name=".Qb10Activity" />
+        <activity android:name=".Qb9Activity" />
+        <activity android:name=".Qb8Activity" />
+        <activity android:name=".Qb7Activity" />
+        <activity android:name=".Qa20Activity" />
+        <activity android:name=".Qa19Activity" />
+        <activity android:name=".Qa18Activity" />
+        <activity android:name=".Qa17Activity" />
+        <activity android:name=".Qa16Activity" />
+        <activity android:name=".Qa15Activity" />
+        <activity android:name=".Qa14Activity" />
+        <activity android:name=".Qa13Activity" />
+        <activity android:name=".Qa12Activity" />
+        <activity android:name=".Qa11Activity" />
+        <activity android:name=".Qa10Activity" />
+        <activity android:name=".Qa9Activity" />
+        <activity android:name=".Qa8Activity" />
+        <activity android:name=".Qa7Activity" /> <!-- suppress AndroidDomInspection -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuestionAcvtivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GroupAActivity"
+            android:parentActivityName=".QuestionAcvtivity" />
+        <activity
+            android:name=".GroupBActivity"
+            android:parentActivityName=".QuestionAcvtivity" />
+        <activity
+            android:name=".GroupCActivity"
+            android:parentActivityName=".QuestionAcvtivity" />
+        <activity android:name=".GroupDActivity" />
+        <activity
+            android:name=".Q1aActivity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity
+            android:name=".Q2bActivity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity
+            android:name=".Q3cActivity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity
+            android:name=".Q4dActivity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity android:name=".Qb1Activity" />
+        <activity android:name=".Qb2Activity" />
+        <activity android:name=".Qb3Activity" />
+        <activity android:name=".Qb4Activity" />
+        <activity android:name=".Qc1Activity" />
+        <activity android:name=".Qc2Activity" />
+        <activity android:name=".Qc3Activity" />
+        <activity android:name=".Qc4Activity" />
+        <activity android:name=".Qd1Activity" />
+        <activity android:name=".Qd2Activity" />
+        <activity android:name=".Qd3Activity" />
+        <activity android:name=".Qd4Activity" />
+        <activity
+            android:name=".Qa5Activity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity
+            android:name=".Qa6Activity"
+            android:parentActivityName=".GroupAActivity" />
+        <activity android:name=".Qb5Activity" />
+        <activity android:name=".Qb6Activity" />
+        <activity android:name=".Qc5Activity" />
+        <activity android:name=".Qc6Activity" />
+        <activity android:name=".Qd5Activity" />
+        <activity android:name=".Qd6Activity" />
+
+        <receiver android:name=".Alarm_trys" />
+
+        <provider
+            android:name=".data.PetProvider"
+            android:authorities="com.example.compuworld.learnforkids"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8871183720829585~7998883138" />
+    </application>
+
+</manifest>

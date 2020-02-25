@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".Qe15Activity"
+
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        >    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        >
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="رجوع"
+            android:background="#00ACC1"
+            style="@style/group"
+            android:id="@+id/back"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="السؤال 15"
+            style="@style/group"
+            />
+        <TextView
+            android:background="#00ACC1"
+
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" ahmed"
+            style="@style/group"
+            android:id="@+id/trys"
+
+            />
+
+        />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ACC1"
+
+            style="@style/group"
+            tools:text="ahmed"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:id="@+id/question"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/group"
+            tools:text="ahmed"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:id="@+id/first"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/group"
+            tools:text="ahmed"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:id="@+id/third"
+            />
+
+
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/group"
+            tools:text="ahmed"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:id="@+id/second"
+            />
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            style="@style/group"
+            android:layout_gravity="center"
+            android:layout_marginRight="5000000dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:id="@+id/solv"
+            android:text="اكشف الاجابه"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="false"
+
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

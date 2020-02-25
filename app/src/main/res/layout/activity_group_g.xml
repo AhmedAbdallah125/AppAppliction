@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".GroupGActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="رجوع"
+                style="@style/group"
+                android:background="#00ACC1"
+                android:id="@+id/backmain"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/score"
+                android:text="ahmed"
+                style="@style/group"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:id="@+id/trys"
+                android:text="ahmed"
+                style="@style/group"
+                android:background="#00ACC1"
+                />
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 2"
+                style="@style/group"
+                android:id="@+id/q2"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 1"
+                android:textSize="24sp"
+                android:id="@+id/q1"
+
+                style="@style/group"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 4"
+                android:id="@+id/q4"
+                style="@style/group"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 3"
+                style="@style/group"
+                android:id="@+id/q3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 6"
+                android:id="@+id/q6"
+                style="@style/group"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 5"
+                android:id="@+id/q5"
+                style="@style/group"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 8"
+                android:id="@+id/q8"
+                style="@style/group"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 7"
+                android:id="@+id/q7"
+                style="@style/group"
+                />
+
+        </LinearLayout>   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 10"
+            android:id="@+id/q10"
+            style="@style/group"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 9"
+            android:id="@+id/q9"
+            style="@style/group"
+            />
+
+    </LinearLayout>   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 12"
+            android:id="@+id/q12"
+            style="@style/group"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 11"
+            android:id="@+id/q11"
+            style="@style/group"
+            />
+
+    </LinearLayout>   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 14"
+            android:id="@+id/q14"
+            style="@style/group"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 13"
+            android:id="@+id/q13"
+            style="@style/group"
+            />
+
+    </LinearLayout>   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 16"
+            android:id="@+id/q16"
+            style="@style/group"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 15"
+            android:id="@+id/q15"
+            style="@style/group"
+            />
+
+    </LinearLayout>   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 18"
+            android:id="@+id/q18"
+            style="@style/group"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_margin="24dp"
+            android:layout_weight="1"
+            android:text="السؤال 17"
+            android:id="@+id/q17"
+            style="@style/group"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 20"
+                android:id="@+id/q20"
+                style="@style/group"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_margin="24dp"
+                android:layout_weight="1"
+                android:text="السؤال 19"
+                android:id="@+id/q19"
+                style="@style/group"
+                />
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+</ScrollView>
